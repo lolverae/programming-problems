@@ -1,3 +1,10 @@
+// Statement
+// Given an array of pairs representing the teams that have competed against each
+// other and an array containing the results of each competition, write a function that returns the winner of the tournament. 
+// Competitions array has 2 strings, ["homeTeam" "awayTeam"], if the result of a match is 0, homeTeam loses, if its 1, homeTeam wins
+
+// Solution:
+// As a brute force approach we could create a array with winners based on the results, then we just return the most repeated string inside that array. 
 package main
 
 func TournamentWinner(competitions [][]string, results []int) string {
